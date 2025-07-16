@@ -1,7 +1,7 @@
 public class Persona {
     private int id;
     private String nombre;
-    private String fechaDeNascimiento;
+    private LocalDetaTime fechaDeNascimiento;
 
     public Persona(int id, String nombre, String fechaDeNascimiento) {
         this.id = id;
