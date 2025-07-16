@@ -3,6 +3,7 @@ import java.time.LocalDate;
 public class Persona {
     private int id;
     private String nombre;
+
     private LocalDate fechaDeNascimiento;
 
     public Persona(int id, String nombre, LocalDate fechaDeNascimiento) {
