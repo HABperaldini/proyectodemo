@@ -1,9 +1,11 @@
+import java.time.LocalDate;
+
 public class Persona {
     private int id;
     private String nombre;
-    private String fechaDeNascimiento;
+    private LocalDate fechaDeNascimiento;
 
-    public Persona(int id, String nombre, String fechaDeNascimiento) {
+    public Persona(int id, String nombre, LocalDate fechaDeNascimiento) {
         this.id = id;
         this.nombre = nombre;
         this.fechaDeNascimiento = fechaDeNascimiento;
@@ -25,11 +27,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public String getFechaDeNascimiento() {
+    public LocalDate getFechaDeNascimiento() {
         return fechaDeNascimiento;
     }
 
-    public void setFechaDeNascimiento(String fechaDeNascimiento) {
+    public void setFechaDeNascimiento(LocalDate fechaDeNascimiento) {
         this.fechaDeNascimiento = fechaDeNascimiento;
     }
 
